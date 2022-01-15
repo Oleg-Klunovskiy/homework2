@@ -1,3 +1,4 @@
+
 p {
     height: 100%;
     display: flex;
@@ -11,13 +12,21 @@ p {
     background: #e5f6af;
 }
 
+.content-box {
+    display: flex;
+    height: 330px;
+}
+
 #menu {
     width: 30%;
     height: 316px;
     background: #fdb6fe;
     margin-top: 16px;
     margin-right: 20px;
+}
 
+.post-box {
+    width: 70%;
 }
 
 .post {
@@ -25,11 +34,4 @@ p {
     background: #9ee1fe;
 }
 
-.content-box {
-    display: flex;
-    height: 330px;
-}
 
-.post-box {
-    width: 70%;
-}
