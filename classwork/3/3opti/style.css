@@ -1,0 +1,23 @@
+body{
+    background: #9d9d9d;
+}
+.a,.b,.c,.d,.e,.f{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a,.b,.c,.d,.e{
+    height: 200px;
+}
+.c,.d,.e,.f{
+    width: 200px;
+}
+
+.box{
+    width: 800px;
+}
+.content,.content-b{
+    display: flex;
+}
+
